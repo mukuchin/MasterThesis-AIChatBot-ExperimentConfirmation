@@ -3,7 +3,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <title>実験のご案内</title>
+    <title>工学院大学 ヒューマンインタフェース研究室 実験のご案内</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,26 +11,69 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <header>
+  <body class="d-flex flex-column align-items-center justify-content-center">
+    <header class="text-center mt-4">
       <h1>実験のご案内</h1>
     </header>
-    <main>
-      <p>
-        以下の内容で実験を行います。よろしければ「実験を開始する」ボタンをクリックしてください。
+    <main class="container mt-4">
+      <p class="text-start">
+        この度は、実験にご参加いただき、誠にありがとうございます。<br />
+        この実験は、AIチャットボットとの対話を通じて、対等なコミュニケーションを体験していただくものです。<br />
+        この実験は、包摂的な社会を目指す技術的アプローチの一環として行われています。<br />
+        所要時間は5分程度です。制限時間はありませんので、ご自身のペースで進めていただいて構いません。<br />
+        以下の内容で実験を行います。ご理解いただいた上で、実験を開始してください。
       </p>
-      <p>実験の内容</p>
-      <ul>
-        <li>実験の目的：弱者男性AIチャットボットの実験</li>
-        <li>実験の内容：チャットボットとの会話</li>
-        <li>実験の所要時間：約5分</li>
+      <h3>実験の流れ</h3>
+      <ol class="text-start">
+        <li>AIチャットボットがあなたに自己紹介します。</li>
+        <li>AIチャットボットが、自身の悩みを具体的に共有します。</li>
+        <li>
+          AIチャットボットがあなたに具体的なアドバイスや意見を求めます。<br />
+          あなたには、5回までの返答の機会が与えられます。<br />
+          5回以内で、AIチャットボットに対してアドバイスや意見を述べて、結論を出すことを目指してください。
+        </li>
+        <li>
+          あなたが結論を出すか、5回の返答が終了した時点で、AIチャットボットがあなたに実験が終了したことを伝えます。
+        </li>
+        <li>
+          実験が終了したら、AIチャットボットがアンケートの案内をします。AIチャットボットの指示に従って、アンケートに回答してください。
+        </li>
+      </ol>
+
+      <h3>注意事項</h3>
+      <ul class="text-start">
+        <li>実験は1人で行ってください。</li>
+        <li>実験中は他の人と話さないようにしてください。</li>
+        <li>
+          実験中は、スマートフォンやパソコンの他のウィンドウを開かないようにしてください。
+        </li>
+        <li>
+          本実験は完全匿名で行われます。個人を特定できる情報は収集されません。
+        </li>
+        <li>実験中にご回答いただく内容は研究目的のみに使用されます。</li>
+        <li>
+          対話中にわからないことがあれば、自由にご自身の言葉で質問や意見を述べてください。
+        </li>
       </ul>
-      <form action="chat.php" method="post">
-        <input type="submit" value="実験を開始する" />
-      </form>
+
+      <p class="text-start">
+        上記に同意する場合、以下の「実験を開始する」ボタンをクリックして、実験を開始してください。
+      </p>
+      <a
+        href="https://udify.app/chat/6lmQOmKtkeGpBdOb"
+        class="btn btn-primary"
+        role="button"
+        >実験を開始する</a
+      >
     </main>
-    <footer>
-      <p>工学院大学大学院工学研究科　ヒューマンインタフェース研究室</p>
+    <footer class="text-center mt-4">
+      <img
+        src="KGUメインロゴ.png"
+        alt="工学院大学のロゴ"
+        class="img-fluid"
+        style="max-width: 200px"
+      />
+      ©2024. HumanInterface Lab. All rights reserved.
     </footer>
   </body>
 </html>
